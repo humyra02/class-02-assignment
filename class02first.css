@@ -107,3 +107,108 @@ padding: 0;
 .banner2 .banner-right{
 	flex-basis: 60%;
 }
+
+
+
+
+
+
+.about{
+	width: 100%;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.about-content h2{
+	font-size: 28px;
+    font-weight: 700;
+    color: #1e266d;
+    line-height: 36px ;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 30px;
+}
+.about-content p{
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 30px;
+	margin-top: 0px;
+	color:#333 ;
+	line-height: 28px;
+	font-weight: 400;
+}
+.about-content h3{
+	color: #333;
+	font-size: 26px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	line-height: 24px;
+	margin-bottom: 10px;
+}
+.address-content{
+	display: flex;
+	background-color: #2e367d;
+	border-radius: 8px;
+	padding-top: 60px;
+    padding-bottom: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 60px;
+}
+
+.address-left{
+	flex-basis: 50%;
+}
+.address-right{
+	flex-basis: 50%;
+}
+.address-left h3, .address-right h3{
+	color: #fff;
+	font-size: 24px;
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 10px;
+	line-height: 24px;
+	font-weight: 700;
+}
+.address-left p, .address-right p{
+	color: #fff;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	line-height: 22px;
+	margin-bottom: 12px;
+}
+.footer{
+	width: 100%;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.footer-content{
+	display: flex;
+	padding-left: 16px;
+	padding-right: 16px;
+}
+.footer-1, .footer-2, .footer-3, .footer-4{
+	flex-basis: 25%;
+}
+.footer-1 h5, .footer-2 h5, .footer-3 h5, .footer-4 h5{
+    color: #1e266d;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+.footer-1 p, .footer-2 p{
+	color: #91a3bb;
+	font-weight: 400;
+	line-height: 24px;
+	margin-bottom: 10px;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+}
+.footer-3 ul li,.footer-4 ul li{
+	list-style: none; 	
+	line-height: 28px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: #91a3bb;
+}
